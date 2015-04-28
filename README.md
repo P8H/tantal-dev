@@ -7,7 +7,7 @@ Website hosted on github in https://github.com/P8H/tantal
 ##Currently implementation status
 Tantal includes following features
 * Own vars
-   * Assignment: n = 42; 
+   * Assignment: n = 42;
    * Evaluation: n*2 = _v;
 * Special vars
    * Value: _v(alue)
@@ -40,3 +40,6 @@ This is a HTML5 application, built with [Brunch](http://brunch.io).
 
 ## Structure
 Tantal based on the parser generator [PEG.js](http://pegjs.org).
+
+## TODO
+Tests.. with phantomjs? https://github.com/metaskills/mocha-phantomjs

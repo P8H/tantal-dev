@@ -1,21 +1,30 @@
 {
-  "name": "your-app",
+  "name": "Tantal",
   "description": "Description",
-  "author": "Your Name",
+  "author": "P8H",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/P8H/tantal-dev"
   },
   "scripts": {
     "start": "brunch watch --server",
-    "test": "brunch test"
+    "test":  "mocha --compilers coffee:coffee-script test/parser.coffee -t 20000 -R spec"
   },
   "dependencies": {
     "javascript-brunch": ">= 1.0 < 1.8",
     "css-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8",
     "clean-css-brunch": ">= 1.0 < 1.8",
-    "auto-reload-brunch": ">= 1.0 < 1.8"
+    "auto-reload-brunch": ">= 1.0 < 1.8",
+    "mocha-phantomjs" : ">= 3.5.3",
+    "mocha": "~1.20.1",
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {
+    "phantomjs": "~1.9.1",
+    "chai": "1.8.x",
+    "coffee-script": "1.6.x",
+    "requirejs": "2.1.x"
   }
 }
