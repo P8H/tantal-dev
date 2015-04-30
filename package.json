@@ -19,7 +19,8 @@
     "auto-reload-brunch": ">= 1.0 < 1.8",
     "mocha-phantomjs" : ">= 3.5.3",
     "mocha": "~1.20.1",
-    "commander": "~2.0.0"
+    "commander": "~2.0.0",
+    "appcache-brunch": "1.7.x"
   },
   "devDependencies": {
     "phantomjs": "~1.9.1",
